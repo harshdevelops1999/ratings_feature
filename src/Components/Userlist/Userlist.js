@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./Userlist.css";
-import axios from "axios";
 
 function Userlist(props) {
   console.log(props);
