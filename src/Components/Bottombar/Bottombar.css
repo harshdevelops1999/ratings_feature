@@ -1,0 +1,55 @@
+.slider {
+    width: 343px;
+    /* height: 700px; */
+    background-color: white;
+    position: absolute;
+    bottom: -50px;
+  
+    border-radius: 20px;
+    display: block;
+    animation-name: sliderEffect;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+  }
+  @keyframes sliderEffect {
+    from {
+      height: 0;
+    }
+    to {
+      height: 700px;
+    }
+  }
+  
+  .hideSlider {
+    display: none;
+  }
+  
+  .crossIcon {
+    cursor: pointer;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+  }
+  .ecocDetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ecocCount {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .ecocText {
+    color: #868686;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0% 5px;
+  }

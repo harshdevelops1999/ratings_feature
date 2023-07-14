@@ -1,0 +1,60 @@
+.parent {
+  width: 343px;
+  height: 200px;
+  flex-shrink: 0;
+
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(9.5px);
+  -webkit-backdrop-filter: blur(9.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.ratingsHead {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 16px;
+}
+.ratingsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.ratingCount {
+  color: #fff;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 2% 10%;
+  cursor: pointer;
+}
+.text {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  max-width: 73%;
+  margin: 2% 2%;
+  cursor: pointer;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+.line {
+  width: 294px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin: 5% 10%;
+}
+
+.star{
+  position: absolute;
+  left: 45%;
+  top: -10%;
+}

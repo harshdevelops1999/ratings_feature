@@ -1,0 +1,25 @@
+.search {
+  border-radius: 59px;
+  border: 1px solid #eaecf2;
+  width: 300px;
+  height: 42px;
+  outline: none;
+  /* padding: 22px; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 5%;
+}
+.searchInput {
+  border: 1px transparent;
+  width: 71%;
+  font-size: 15px;
+}
+.searchInput:focus {
+  outline: none;
+}
+.verticalLine {
+  height: 26px;
+  border-right: 1px solid#EAECF2;
+  /* margin-left: 5%; */
+}
