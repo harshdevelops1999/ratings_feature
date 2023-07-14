@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Search from "../Search/Search";
 import cross from "../../Assets/cross.svg";
 import "./Bottombar.css";
